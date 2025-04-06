@@ -29,7 +29,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def get_linear_training_matrices(x, y):
+def get_design_matrix(x, y):
 
     X_ = [[1, val] for val in x]
     Y_ = [[val] for val in y]
